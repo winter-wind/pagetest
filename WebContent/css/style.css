@@ -1,0 +1,87 @@
+
+/* main content of the site */
+#mainContent {
+	
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 50px;
+	text-align: center;
+	width: 60%;
+	padding-left: 150px;
+	padding-bottom: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+#mainContent .productRow {
+	overflow: auto;/*规定当内容溢出元素框时发生的事情 auto：如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容*/
+	color: rgba(146,146,146,1.00);
+}
+/* Each product Information in the catalog */
+
+#mainContent .productRow .img{
+	float: left;//向哪个方向浮动
+	width: 20%;
+}
+#mainContent .productRow .p1{
+	float: right;
+	padding-top: 10px;
+	text-align: left;
+	word-wrap: break-word;
+	width: 82%;
+	height: 40px;
+}
+#mainContent .productRow .p_name{
+	float: left;/*向左浮动*/
+	padding-left: 3px;/*左边距*/
+	padding-top: 3px;/*上边距*/
+	text-align: center;/*字体*/
+	word-wrap: break-word;/*div内自动换行*/
+	width: 25%;
+}
+#mainContent .productRow .p_hous{
+	float: left;/*向左浮动*/
+	padding-left: 15px;/*左边距*/
+	padding-top: 3px;/*上边距*/
+	text-align: center;/*字体*/
+	word-wrap: break-word;/*div内自动换行*/
+	width: 25%;
+}
+#mainContent .productRow .p_eat{
+	float: left;
+	padding-left: 15px;
+	padding-top: 3px;
+	text-align: center;
+	word-wrap: break-word;
+	width: 30%;
+}
+#mainContent .productRow .p22{
+	float: right;
+	padding-left: 15px;
+	padding-top: 3px;
+	text-align: center;
+	word-wrap: break-word;
+	width: 10%;
+}
+#mainContent .productRow .fristnext{
+	width: auto;
+	height: auto;
+	overflow: auto;/*规定当内容溢出元素框时发生的事情 auto：如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容*/
+	color: rgba(146,146,146,1.00);
+}
+#mainContent .page{
+	width: auto;
+	height: auto;
+	padding-left: 80px;
+	overflow: auto;/*规定当内容溢出元素框时发生的事情 auto：如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容*/
+	color: rgba(146,146,146,1.00);
+}
+
+
+
+
+
+
